@@ -1,0 +1,1013 @@
+/* ----------reset styles------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* ----------download section------- */
+.download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.download .image {
+    display: flex;
+    gap: 20px;
+}
+
+.download .image img {
+    height: 40px;
+    width: 40px;
+}
+
+.download .image div span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.download .image div p {
+    font-size: 12px;
+}
+
+.download .download-button button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #000;
+    background: none;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+
+/* -----download section finish here------ */
+
+/* Header Section-> */
+
+.header {
+    display: flex;
+    position: sticky;
+    background-color: #ffffff;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+    z-index: 10;
+}
+
+.header .logo img {
+    width: 200px;
+}
+
+.header .nav-bar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.header ul li {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header .section {
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li:hover {
+    background-color: #F2F2F2;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.users img,
+.menubar img {
+    display: none;
+    height: 20px;
+    width: 20px;
+}
+
+.section div {
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.section div:hover {
+    background-color: #F2F2F2;
+}
+
+.section button {
+    padding: 15px;
+    background-color: #333333;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+/* ---header section finish here */
+
+/* Container Section---------> */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sub-container {
+    width: 97%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+/* ------header menu-items---- */
+
+.menu-item {
+    display: flex;
+    width: 80%;
+    margin-left: 8%;
+    overflow: scroll;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.menu-item div i {
+    margin-right: 5px;
+}
+
+.menu-item div p {
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.menu-item div p:hover {
+    border-bottom: 1px solid black;
+    transition: all 0.3s linear;
+}
+
+.menu-item div .paragraph {
+    width: 180px;
+}
+
+/* ----------menu item finish here----- */
+
+/* -------serach-section---------- */
+.search-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.search {
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+}
+
+.search input {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 18px;
+    background: none;
+    flex-basis: 75%;
+    border: none;
+    outline: none;
+}
+
+.search button {
+    flex-basis: 10%;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #34e0a1;
+    border: none;
+}
+
+/* ------------search section finish here------- */
+/* --------hero section-------- */
+
+.hero-section {
+    width: 100%;
+    height: 450px;
+    margin-top: 7%;
+    border-radius: 20px;
+    background: linear-gradient(to right, #D5DDF8, #DCC9FF);
+    position: relative;
+}
+
+.hero-content {
+    height: 450px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 8%;
+    overflow: scroll;
+    gap: 10px;
+    text-align: start;
+    /* background-color: red; */
+}
+
+.hero-content div {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content__para {
+    font-size: 14px;
+    color: #301d498b;
+    font-weight: 600;
+
+}
+
+.hero-content span {
+    background-color: #ffffff7a;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    color: #301D49;
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-section .hero-background img {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 440px;
+    width: 1200px;
+}
+
+.hero-content button {
+    background-color: #52327C;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 20px;
+}
+
+.hero-content button i {
+    margin-right: 10px;
+}
+
+/* ---her0-section finish here---- */
+
+/* -----image-section----- */
+.image-section {
+    width: 100%;
+    margin-top: 90px;
+    height: 400px;
+}
+
+.image-section-division {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    height: 100%;
+}
+
+.image-section-division i {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    right: 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.image-section-division .image-contents {
+    display: flex;
+    overflow: scroll;
+}
+
+.image-contents .img-box {
+    position: relative;
+}
+
+.image-contents .img-box span {
+    position: absolute;
+    bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+    color: #fff;
+    left: 50px;
+}
+
+.image-contents .img-box:hover span {
+    display: block;
+    transition: all 0.3s linear;
+}
+
+.image-contents .img-box:hover {
+    filter: brightness(110%);
+}
+
+
+
+.image-contents .img-box img {
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+/* -image section finish here------- */
+
+/* -------hyderabad section-------- */
+.hyderabad-section {
+    width: 100%;
+    height: 450px;
+}
+
+.hyderabad-section-division {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: scroll;
+}
+
+.hyderabad-section-division .img-boxes {
+    padding: 20px;
+}
+
+.hyderabad-section-division .img-boxes img {
+    width: 270px;
+    border-radius: 20px;
+    width: 270px;
+}
+
+.hyderabad-section-division .img-boxes img:hover {
+    filter: brightness(110%);
+}
+
+/* ---highlight Hyderabad done here--- */
+
+.thrilling-adventures {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.thrilling-adventure-section {
+    display: flex;
+    overflow: scroll;
+}
+
+.thriller-image-section {
+    padding: 10px;
+}
+
+.thriller-image-section button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    background-color: #333333;
+    color: #fff;
+    font-weight: 600;
+}
+
+.thriller-image-section img {
+    width: 300px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.thriller-image-section img:hover {
+    filter: saturate(190%);
+    transform: translateY(-10px);
+    transition: all 0.3s linear;
+}
+
+/* -thriller section finish here--- */
+
+/* ----ecplore section--- */
+.explore {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #FAF1ED;
+    margin-top: 50px;
+}
+
+.explore h3 {
+    margin-left: 20px;
+}
+
+.explore-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: scroll;
+}
+
+.explore-image {
+    padding: 20px;
+}
+
+.explore-image a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.explore-image a:hover {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.explore-image img {
+    width: 350px;
+    border-radius: 20px;
+    height: 240px;
+}
+
+.explore-image img:hover {
+    filter: brightness(110%);
+    transform: scale(1.01);
+    transition: all 0.3s linear;
+}
+
+/* -------explore section finish here------- */
+
+/* -----top destination----- */
+.top-destination {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-destination-content {
+    display: flex;
+    overflow: scroll;
+}
+
+.destination-img {
+    position: relative;
+
+}
+
+.destination-img img {
+    height: 270px;
+    margin-left: 20px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+.destination-img span {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    z-index: 2;
+}
+
+.destination-img img:hover {
+    filter: brightness(130%);
+    transition: filter 0.3s;
+}
+
+/* -------top desitnation finish here---- */
+
+/* ---sponser content----- */
+.sponser {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 100px;
+    background-color: #F2ECF9;
+    /* padding: 20px; */
+}
+
+.sponser-section {
+    display: flex;
+    align-items: center;
+}
+
+.biker-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.sponser-content {
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.sponser-content div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.sponser-content h1 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.sponser-content button {
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #0b0b0b;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+.sponser-content button:hover {
+    background-color: #333333;
+}
+
+.sponser-content div img {
+    height: 20px;
+    width: 20px;
+}
+
+.biker-img img {
+    width: 600px;
+    border-radius: 10px;
+    height: 500px;
+}
+/* ---------------------------- */
+/* ---------------------------- */
+.near-by{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+/* ------------------------------ */
+
+.traveller{
+    width: 100%;
+    padding: 50px 30px;
+    position: relative;
+    background-color: #FFF7E1;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: -5;
+    margin-top: 50px;
+}
+.traveller-section{
+    margin: 20px;
+}
+
+.traveller-section button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.traveller-section button:hover{
+    background-color: #301D49;
+}
+
+.circle-1{
+    width: 300px;
+    height: 300px;
+    background-color: #34E0A1;
+    position: absolute;
+    top: 30%;
+    z-index: -1;
+    left: 40%;
+    border-radius: 50%;
+}
+.circle-2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #F2B203;
+    position: absolute;
+    z-index: -5;
+    top: -100px;
+    left: -60px;
+}
+/* ------------------------------------------ */
+/* --------footer section--------- */
+.footer-container{
+    width: 100%;
+    margin-top: 80px;
+    background-color: #FAF1ED;
+    border-radius: 10px;
+    padding: 2%;
+}
+.footer-section-content{
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.details{
+    display: none;
+}
+.details div{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 20px;
+    font-weight: 600;
+}
+.details span{
+    font-size: 10px;
+}
+.copy-right{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.copyright-details  div{
+    display: flex;
+    justify-content: space-between;
+}
+.links-dropdown select{
+    background: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.copyright-details  .links a{
+    font-weight: 600;
+    margin-left: 10px;
+} 
+.copyright-details span{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.details .dropdown{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.details .dropdown select{
+    flex-basis: 30%;
+    font-weight: 600;
+    background: none;
+    border: 1px solid black;
+
+    padding: 10px;
+}
+.footer table td{
+    padding: 0 10px;
+    font-weight: 400;
+}
+.footer table td:hover{
+    color: red;
+}
+/* Media Queries---> */
+
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 15px 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        padding: 15px 25px;
+    }
+
+    .hero-content {
+        padding: 30px;
+        width: 350px;
+    }
+
+    .hero-section .hero-background img {
+        height: 440px;
+        width: 900px;
+    }
+    .sponser-section{
+        margin: 10px;
+    }
+    .sponser-section h1{
+        font-size: 20px;
+    }
+    .sponser-content {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .biker-img {
+        margin: 0;
+    }
+
+    .biker-img img {
+        height: 450px;
+        width: 550px;
+    }
+
+    .sponser-content div {
+        flex-direction: column;
+    }
+}
+    @media screen and (max-width: 800px) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            padding: 10px 30px;
+        }
+
+        .section div,
+        .section button {
+            display: none;
+        }
+
+        .header .logo img {
+            margin-left: 40%;
+            width: 180px;
+        }
+
+        .users img,
+        .menubar img {
+            display: block;
+        }
+
+        .header .nav-bar {
+            display: none;
+        }
+
+        .container {
+            padding: 0;
+        }
+
+        .sub-container {
+            width: 95%;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .menu-item {
+            margin-top: 0;
+        }
+
+        .menu-item {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 0px;
+        }
+
+        .menu-item div p {
+            font-size: 16px;
+        }
+
+        .search {
+            margin-top: 10px;
+            width: 95%;
+            border-radius: 20px;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .search input {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.299);
+            padding: 10px;
+        }
+
+        .search button {
+            flex-basis: 100%;
+            padding: 10px;
+        }
+
+        .hero-section {
+            display: flex;
+            border-radius: 10px;
+            justify-content: start;
+            align-items: start;
+        }
+
+        .hero-content {
+            width: 100%;
+            font-size: 15px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section .hero-background img {
+            height: 300px;
+            top: 33%;
+            right: 10%;
+            width: 900px;
+        }
+
+        .image-contents .img-box img {
+            height: 200px;
+            width: 200px;
+            border-radius: 20px;
+            margin-left: 30px;
+        }
+
+        .hyderabad-section-division .img-boxes img {
+            width: 200px;
+            border-radius: 20px;
+            width: 200px;
+        }
+
+        .thrilling-adventure-section {
+            padding: 0;
+        }
+
+        .thrilling-adventures {
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .thriller-image-section img {
+            width: 200px;
+            height: 170px;
+            border-radius: 20px;
+        }
+
+        .thriller-image-section {
+            font-size: 13px;
+            padding: 10px;
+        }
+
+        .explore-image img {
+            width: 300px;
+            height: 240px;
+        }
+        .sponser-section{
+            padding: 20px;
+        }
+        .sponser-content{
+            gap: 0;
+        }
+        .destination-img img {
+            height: 220px;
+            width: 220px;
+            border-radius: 5px;
+        }
+        .biker-img img{
+            width: 100%;
+            height: 350px;
+        }
+        .sponser-section {
+            display: block;
+            text-align: start;
+        }
+        .sponser-section h1{
+            font-size: 20px;
+        }
+        .traveller{
+            padding: 10px 5px;
+            border-radius: 10px;
+        }
+        .footer-section{
+            display: none;
+        }
+        .details{
+            display: block;
+        }
+        .details div a{
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+        .header {
+            padding: 20px;
+        }
+
+        .header .logo img {
+            width: 150px;
+        }
+
+        .hero-content {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section .hero-background img {
+            height: 340px;
+            top: 25%;
+            right: 15%;
+            width: 600px;
+        }
+
+        .hero-content h1 {
+            font-size: 25px;
+        }
+
+        .hero-content p {
+            font-size: 15px;
+        }
+
+        .hero-content button {
+            z-index: 3;
+        }
+        .near-by{
+            font-size: 15px;
+        }
+        .details div a{
+            font-size: 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 400px) {
+        .header .logo img {
+            margin-left: 15%;
+            width: 150px;
+        }
+
+        .hero-section {
+            border-radius: 5px;
+        }
+
+        .hero-content {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section .hero-background img {
+            height: 300px;
+            top: 33%;
+            right: 10%;
+            width: 400px;
+        }
+
+        .hero-content button {
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
